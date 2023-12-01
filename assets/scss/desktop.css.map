@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACN,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAa;EACpC,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,MAAM;EACrB,UAAU,EAAE,IAAI",
+"sources": ["_desktop.scss"],
+"names": [],
+"file": "desktop.css"
+}

@@ -1,16 +1,7 @@
-/*@import 'desktop';
-@media only screen and (max-width: 375px){ 
-    @import 'mobile';
-}*/
-
-$primary-red: hsl(0, 78%, 62%);
-$primary-cyan: hsl(180, 62%, 55%);
-$primary-orange: hsl(34, 97%, 64%);
-$primary-blue: hsl(212, 86%, 64%);
-
-$neutral-dark-blue: hsl(234, 12%, 34%);
-$neutral-gray-blue: hsl(229, 6%, 66%);
-$neutral-light-gray: hsl(0, 0%, 98%);
+@import 'tokkens';
+@media only screen and (min-width: 1440px){ 
+    @import 'desktop';
+}
 
 @mixin font-style-global($weight){
     font-family: "Poppins";
@@ -35,6 +26,7 @@ $neutral-light-gray: hsl(0, 0%, 98%);
     background-size: contain;
 }
 
+
 body{
     font-size: 15px;
     width: 80%;
@@ -47,8 +39,9 @@ header {
     margin: auto;
     text-align: center;
 }
+
 .container{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     justify-items: center;

@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  column-gap: 10px; }
+
+/*# sourceMappingURL=desktop.css.map */
