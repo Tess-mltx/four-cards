@@ -1,4 +1,10 @@
 body {
-  font-size: 15px; }
+  font-size: 15px;
+  margin: 0% 5% 0% 5%; }
+
+@media only screen and (min-width: 1440px) {
+  header {
+    width: 40%;
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
