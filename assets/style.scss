@@ -1,0 +1,25 @@
+$primary-red: hsl(0, 78%, 62%);
+$primary-cyan: hsl(180, 62%, 55%);
+$primary-orange: hsl(34, 97%, 64%);
+$primary-Blue: hsl(212, 86%, 64%);
+
+$neutral-dark-blue: hsl(234, 12%, 34%);
+$neutral-gray-blue: hsl(229, 6%, 66%);
+$neutral-light-gray: hsl(0, 0%, 98%);
+
+@mixin font-style-global($weight){
+    font-family: "Poppins";
+    font-weight: $weight;
+}
+
+body{
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 375px){ 
+    @import 'mobile';
+}
+
+@media only screen and (min-width: 1440px){ 
+    @import 'desktop';
+}
