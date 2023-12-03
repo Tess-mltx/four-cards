@@ -1,6 +1,9 @@
 @import 'tokkens';
 @import 'mixins';
 
+header{
+    width: 50%;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(3,1fr);

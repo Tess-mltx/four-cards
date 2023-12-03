@@ -16,7 +16,7 @@ body{
     color: $neutral-dark-blue;
 }
 header {
-    width: 50%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -45,3 +45,4 @@ header {
         @include icon-card-style('images/icon-supervisor.svg');
     };
 }
+
