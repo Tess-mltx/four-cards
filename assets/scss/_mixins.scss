@@ -1,3 +1,9 @@
+@mixin responsive-desktop {
+    @media screen and (max-width : $break-mobile){
+        @content;
+    }
+}
+
 @mixin font-style-global($weight){
     font-family: "Poppins";
     font-weight: $weight;
