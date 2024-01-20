@@ -1,11 +1,7 @@
 @import 'tokkens';
 @import 'mixins';
-@media only screen and (min-width: 375px){ 
-    @import 'mobile';
-}
-@media only screen and (min-width: 1440px){ 
-    @import 'desktop';
-}
+@import 'desktop';
+
 
 
 body{
